@@ -1,0 +1,16 @@
+@import styles/variables.sass
+@import styles/mixins.sass
+
+.Sidebar
+  +flexbox(column, flex-start, center)
+  position: fixed
+  height: 100%
+  left: 0
+  top: 0
+  width: 200px
+  background: $dark
+  color: $yellow
+  padding: 20px
+
+  .name
+    font-size: 50px
